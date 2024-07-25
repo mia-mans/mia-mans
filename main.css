@@ -1,1 +1,49 @@
+body{
+    background-color: D7DBEB;
+    margin:0;
+}
 
+a{
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* ------------------------------ */
+/* ------------ MENU ------------ */
+/* ------------------------------ */
+.menu {
+    display: flex;
+    justify-content: space-between; /* Distribute space between home and right-group */
+    align-items: flex-start; /* Align items to the top */
+    width: 100%; 
+    height:calc(100vh / 12);
+    position:fixed;
+    width: 100vw;
+    background-color: FAF9F8;
+    border-bottom: 0.2vh solid black;
+  }
+
+  .menu a{
+    font-size: 3vh;
+    font-weight:300;
+    color: black;
+    font-family: 'Lora', serif;
+    font-style:normal;
+    display: flex;
+    margin-top: calc((100vh / 24) - (3vh/2) - 0.2vh);
+}
+
+  
+  #home {
+    margin-left: 5vw; 
+  }
+  
+  .right-group {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    gap: 2vw; 
+  }
+  
+  .right-group > div {
+    padding-right: 3vw; 
+  }
