@@ -1,5 +1,5 @@
 body{
-    background-color: D7DBEB;
+    background-color: FAF9F8;
     margin:0;
     font-weight:300;
     color: black;
@@ -9,6 +9,10 @@ body{
 a{
     font-style: italic;
     text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* ------------------------------ */
@@ -24,14 +28,16 @@ a{
     width: 100vw;
     background-color: FAF9F8;
     border-bottom: 0.2vh solid black;
+    z-index: 10;
   }
 
   .menu a{
-    font-size: 3vw;
+    font-size: 2vw;
     font-style:normal;
     display: flex;
-    margin-top: calc((100vh / 24) - (3vw/2) - 0.2vh);
+    margin-top: calc((100vh / 24) - (2vw/2) - 0.2vh);
     color: black;
+    z-index: 10;
 }
 
   
@@ -53,17 +59,62 @@ a{
 /* ----------- COVER ------------ */
 /* ------------------------------ */
 #cover{
-    position:relative;
+    position:absolute;
+    background-color: D7DBEB;
     width: 100vw;
-    height: calc(100vh - (100vh / 12));
+    height: calc(100vh - (100vh / 12) - 0.2vh);
     margin:0;
-    margin-top: 0vw;
+    margin-top: calc(100vh / 12 + 0.2vh);
     margin-left:0vw;
+    z-index: 0;
 }
 
 #mia{
     position:absolute;
     font-size: 10vw;
-    margin-top: calc(55vh - (100vh / 12));
-    margin-left: 12vw;
+    margin-top: calc(50vh - (100vh / 12));
+    margin-left: 8vw;
+    letter-spacing: 0.5vw;
+}
+
+#scroll{
+  position:absolute;
+  margin-left: calc((100vw - 7vw) / 2);
+  width:7vw;
+  margin-top: 70vh;
+  z-index: 10;
+  color:white;
+}
+#scroll img{
+  width: 100%;
+}
+
+/* ------------------------------ */
+/* ----------- INTRO ------------ */
+/* ------------------------------ */
+
+#intro{
+  margin-top: calc((100vh / 12 + 0.2vh) + 100vh);
+  position:absolute;
+  width: 100vw;
+  height:calc(100vh - (100vh / 12) - 0.2vh);
+}
+
+.title{
+  margin-left: 6vw;
+  margin-top: 12vh;
+  font-size: 5vw;
+  letter-spacing: 0.3vw;
+}
+
+.text{
+  font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.05vw;
+}
+
+#note{
+  opacity: 0.4;
 }
