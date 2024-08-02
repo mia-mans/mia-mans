@@ -56,6 +56,93 @@ html {
   }
 
 /* ------------------------------ */
+/* ----------- STARS ------------ */
+/* ------------------------------ */
+#star1{
+  position:absolute;
+  width: 10vw;
+  margin-left: 3vw;
+}
+#star1:hover{
+  animation: bounce 2s;
+}
+
+#star2{
+  position:absolute;
+  width: 5vw;
+  margin-left: 18vw;
+}
+#star2:hover{
+  animation: bounce 2s;
+}
+
+
+#star3{
+  position:absolute;
+  width: 12vw;
+  margin-left:27vw;
+}
+#star3:hover{
+  animation: bounce 2s;
+}
+
+
+#star4{
+  position:absolute;
+  width: 6vw;
+  margin-left:45vw;
+}
+#star4:hover{
+  animation: bounce 2s;
+}
+
+
+#star5{
+  position:absolute;
+  width: 10vw;
+  margin-left:60vw;
+}
+#star5:hover{
+  animation: bounce 2s;
+}
+
+
+#star6{
+  position:absolute;
+  width: 15vw;
+  margin-left:70vw;
+}
+#star6:hover{
+  animation: bounce 2s;
+}
+
+
+#star7{
+  position:absolute;
+  width: 7vw;
+  margin-left:90vw;
+}
+#star7:hover{
+  animation: bounce 2s;
+}
+
+
+
+.bounce img{
+  width: 100%;
+}
+
+.bounce{
+  display: inline-block;
+  animation: bounce 2s 1;
+}
+
+@keyframes bounce {
+	0%, 10%, 30%, 60%, 80%, 100% {transform: translateY(0);}
+	20% {transform: translateY(-10vh);}
+	40% {transform: translateY(-5vh);}
+}
+/* ------------------------------ */
 /* ----------- COVER ------------ */
 /* ------------------------------ */
 #cover{
@@ -71,19 +158,18 @@ html {
 
 #mia{
     position:absolute;
-    font-size: 10vw;
+    font-size: 9vw;
     margin-top: calc(50vh - (100vh / 12));
-    margin-left: 8vw;
+    margin-left: 12vw;
     letter-spacing: 0.5vw;
 }
 
 #scroll{
   position:absolute;
-  margin-left: calc((100vw - 7vw) / 2);
-  width:7vw;
+  margin-left: calc((100vw - 5vw) / 2);
+  width:5vw;
   margin-top: 70vh;
   z-index: 10;
-  color:white;
 }
 #scroll img{
   width: 100%;
@@ -115,6 +201,19 @@ html {
   letter-spacing: 0.05vw;
 }
 
+#linebreak{
+  background-color: FAF9F8;
+  border-bottom: 0.1vw solid black;
+  width: 40vw;
+  margin-left: 6vw;
+  margin-top: 2vw;
+}
+
 #note{
   opacity: 0.4;
+}
+
+#warning{
+  color: 930202;
+  font-weight: 500;
 }
