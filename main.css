@@ -15,6 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* ------------------------------ */
 /* ------------ MENU ------------ */
 /* ------------------------------ */
@@ -158,17 +159,17 @@ html {
 
 #mia{
     position:absolute;
-    font-size: 9vw;
-    margin-top: calc(50vh - (100vh / 12));
-    margin-left: 12vw;
+    font-size: 6vw;
+    margin-top: calc(55vh - (100vh / 12));
+    margin-left: 23vw;
     letter-spacing: 0.5vw;
 }
 
 #scroll{
   position:absolute;
   margin-left: calc((100vw - 5vw) / 2);
-  width:5vw;
-  margin-top: 70vh;
+  width:4vw;
+  margin-top: 80vh;
   z-index: 10;
 }
 #scroll img{
@@ -216,4 +217,66 @@ html {
 #warning{
   color: 930202;
   font-weight: 500;
+}
+
+/* ------------------------------ */
+/* ---------- RESEARCH ---------- */
+/* ------------------------------ */
+
+
+#lmc-mw{
+  position:absolute;
+  background-color: D7DBEB;
+  width: 100vw;
+  /* height: calc(100vh - (100vh / 12) - 0.2vh); */
+  margin:0;
+  margin-top: calc(100vh / 12 + 0.2vh);
+  margin-left:0vw;
+  z-index: 0;
+}
+
+.small-title{
+  margin-left: 8vw;
+  margin-top: 12vh;
+  font-size: 3vw;
+  letter-spacing: 0.3vw;
+  border-left: 0.2vw solid black;
+  padding-left: 2vw;
+}
+
+#tab{
+  padding-left: 4vw;
+}
+
+.bold{
+  font-weight: 600;
+}
+
+.paragraph1{
+  margin-top: 4vw;
+  font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 10vw;
+  margin-right: 40vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.07vw;
+  line-height: 2vw;
+}
+
+.paragraph2{
+  font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.07vw;
+  line-height: 2vw;
+}
+
+
+.paragraph3{
+  font-family: 'Inter', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 30vw;
+  margin-right: 10vw;
+  font-size: 1.5vw;
+  letter-spacing: 0.07vw;
+  line-height: 2vw;
 }
