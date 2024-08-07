@@ -1,0 +1,85 @@
+<html lang="en">
+    <head>
+        <title>Mia Mansfield</title>
+        <link rel="icon" type="image/png" href="images/stars/logo.png"/>
+        <link rel="stylesheet" type="text/css" href="main.css">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+		</style>
+    </head>
+	<body>
+		<div class="menu">
+			<div id="home">
+					<a href="index.html">HOME</a>
+			</div>
+			<div class="right-group">
+				<div id="research">
+					<a href="research.html">RESEARCH</a>
+				</div>
+				<div id="abtme">
+					<a href="index.html">ABOUT ME</a>
+				</div>
+				<div id="contact">
+					<a href="index.html">CONTACT</a>
+				</div>
+			</div>
+		</div>
+		<div id="lmc-mw">
+			<div class="small-title">
+				<p>THE MILKY WAY SYSTEM
+					<br> <span id="tab">& LARGE MAGELLANIC CLOUD</span>
+				</p>
+			</div>
+			<div class="paragraph1">
+				<span class="bold">All galaxies have </span>
+				satellite galaxies that orbit, fall into, and 
+				otherwise interact with their host galaxy. Our Milky Way 
+				galaxy has one satellite of note: the Large Magellanic 
+				Cloud, or LMC. The LMC is a massive satellite with interactions that impact
+				the kinematic structure of the Milky Way.
+				<br>
+				<br>
+			</div>
+
+			<div class="paragraph2">
+				While the expected effects are well 
+				understood, the existing observational data is not 
+				dense enough to accurately identify any perturbations. 
+				However, emerging asteroseismic methods provide a 
+				promising solution. The data from these methods are 
+				expected to be available in the coming years.
+				<br>
+				<br>
+			</div>
+
+			<div class="paragraph3">
+				In order to prepare for upcoming asteroseismic catalogs, 
+				I’ve worked with Dr. Robyn Sanderson, Dr. Daniel Huber, 
+				and Daniel Hey to identify signatures of massive 
+				satellite interactions in FIRE-2 cosmological simulations
+				and predict their observability in mock stellar surveys
+				using py-ananke.
+
+				  <br>
+				<br>
+				This project began through the REU program at the 
+				University of Hawaii Institute for Astronomy. See 
+				my <a href="https://www.youtube.com/watch?v=hdp9OrCA4pU">2023 talk</a> 
+				and <a href="https://aas242-aas.ipostersessions.com/?s=4A-AB-BE-E3-AF-D8-8A-CF-04-D3-59-FE-39-25-EC-E6">2024 AAS iPoster</a> on this work. 
+			</div>
+		</div>
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+			  var element = document.getElementById("lmc-mw");
+			  var contentHeight = element.scrollHeight;
+			  var minHeight = window.innerHeight - (window.innerHeight / 12 + 0.2 * window.innerHeight / 100);
+			  var extraHeight = window.innerHeight * 0.05; // 5% of viewport height
+		
+			  if (contentHeight < minHeight) {
+				element.style.height = minHeight + "px";
+			  } else {
+				element.style.height = (contentHeight + extraHeight) + "px";
+			  }
+			});
+		  </script>
+	</body>
