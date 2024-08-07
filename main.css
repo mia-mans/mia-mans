@@ -9,6 +9,7 @@ body{
 a{
     font-style: italic;
     text-decoration: none;
+    color: black;
 }
 
 html {
