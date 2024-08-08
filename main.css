@@ -286,6 +286,15 @@ html {
 /* ---------- ABOUT ME ---------- */
 /* ------------------------------ */
 
+#lmc-mw .small-title{
+  margin-left: 8vw;
+  margin-top: 12vh;
+  font-size: 3vw;
+  letter-spacing: 0.3vw;
+  border-left: 0.2vw solid black;
+  padding-left: 2vw;
+}
+
 #abt-me{
   position:absolute;
   background-color: EEEBE9;
@@ -298,6 +307,7 @@ html {
 }
 
 #abt-me .small-title{
+  position: relative;
   margin-left: 30vw;
   margin-top: 12vh;
   font-size: 4vw;
@@ -305,12 +315,14 @@ html {
   padding-left: 2vw;
 }
 
+
 #me-1{
+  position: absolute;
   background-color: blue;
   width: 18vw;
   margin-left: 10vw;
   height: 20vw;
-  margin-top: -8.5vh;
+  margin-top: 14vh;
 }
 
 #me-1 img{
@@ -318,11 +330,28 @@ html {
 }
 
 #me-2{
-background-color: aquamarine;
+  position: relative;
+  /* background-color: blue; */
+  width: 18vw;
+  margin-left: 30vw;
+  height: 26vw;
+  margin-top: 0vh;
+}
+
+#me-2 img{
+  width: 100%
 }
 
 #abt-me .paragraph1{
+  position: relative;
   margin-left: 32vw;
   margin-right: 10vw;
-  margin-top: -14vh;
+  margin-top: -2vh;
+}
+
+#abt-me .paragraph2{
+  position: relative;
+  margin-left: 50vw;
+  margin-right: 10vw;
+  margin-top: -26vw;
 }
