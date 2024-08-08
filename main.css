@@ -309,7 +309,7 @@ html {
 #abt-me .small-title{
   position: relative;
   margin-left: 30vw;
-  margin-top: 12vh;
+  margin-top: calc(-26vw - 5vw);
   font-size: 4vw;
   letter-spacing: 0.3vw;
   padding-left: 2vw;
@@ -317,12 +317,12 @@ html {
 
 
 #me-1{
-  position: absolute;
-  background-color: blue;
+  position: relative;
+  /* background-color: blue; */
   width: 18vw;
   margin-left: 10vw;
-  height: 20vw;
-  margin-top: 14vh;
+  height: 26vw;
+  margin-top: 8vw;
 }
 
 #me-1 img{
@@ -345,13 +345,13 @@ html {
 #abt-me .paragraph1{
   position: relative;
   margin-left: 32vw;
-  margin-right: 10vw;
+  margin-right: 9vw;
   margin-top: -2vh;
 }
 
 #abt-me .paragraph2{
   position: relative;
   margin-left: 50vw;
-  margin-right: 10vw;
+  margin-right: 9vw;
   margin-top: -26vw;
 }
