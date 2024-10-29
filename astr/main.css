@@ -1,28 +1,15 @@
 body{
-    background-color: FFFFFF;
+    background-color: FAF9F8;
     margin:0;
-    font-weight: 400;
-    color: 15161A;
-    font-family: Helvetica Neue, sans-serif;
-}
-
-h1{
-  font-weight: 400;
-  font-size: 10vw;
-  color: 15161A;
-  font-family: 'Hedvig Letters Serif', Times, serif;
-}
-
-h2{
-  font-size: 2.5vw;
-  font-weight: 500;
-  color: 15161A;
-  font-family: Helvetica Neue, sans-serif;
+    font-weight:300;
+    color: black;
+    font-family: 'Lora', serif;
 }
 
 a{
     font-style: italic;
     text-decoration: none;
+    color: black;
 }
 
 html {
@@ -34,104 +21,41 @@ html {
 /* ------------ MENU ------------ */
 /* ------------------------------ */
 .menu {
-    width: 100vw; 
-    height: 1vw; 
-    min-height: 20px;
-    padding-top: 5vw; 
-    /* padding-bottom: 1vw;  */
-    padding-left: 15vw; 
-    padding-right: 15vw; 
-    background: white; 
-    justify-content: center; 
-    align-items: center; 
-    display: inline-flex;
-    position: fixed;
+    display: flex;
+    justify-content: space-between; /* Distribute space between home and right-group */
+    align-items: flex-start; /* Align items to the top */
+    width: 100%; 
+    height:calc(100vh / 12);
+    position:fixed;
+    width: 100vw;
+    background-color: FAF9F8;
+    border-bottom: 0.2vh solid black;
     z-index: 10;
   }
 
-  .menu-left{
-    width: 10vw; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: center; 
-    display: inline-flex;
-    position:fixed;
-    left: 3vw;
-  }
-
-  .menu-right{
-    justify-content: flex-start; 
-    align-items: center; 
-    gap: 20vw; 
-    display: flex;
-    position:fixed;
-    right: 0vw;
-  }
-
   .menu a{
-    font-style: normal;
-  }
-
-  .menu a:hover{
-    font-style: italic;
-  }
+    font-size: 2vw;
+    font-style:normal;
+    display: flex;
+    margin-top: calc((100vh / 24) - (2vw/2) - 0.2vh);
+    color: black;
+    z-index: 10;
+}
 
   
   #home {
-    width: 10vw; 
-    height: 6vw; 
-    padding-bottom: 3vw;
-    margin-top: -4vw;
-    word-wrap: break-word;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  #select {
-    width: 10vw; 
-    height: 0px; 
-    border: 0.25vw #15161A solid;
-    position:fixed;
-    top: clamp(6.7vw, 51px, 1000px);
-  }
-
-  #design {
-    width: 28vw; 
-    height: 3vw; 
-    padding-bottom: 3vw;
-    margin-top: -2vw;
-    display:flex;
-    word-wrap: break-word;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
- 
-  #case-studies {
-    width: 22vw; 
-    height: 3vw; 
-    padding-bottom: 3vw;
-    margin-top: -2vw;
-    word-wrap: break-word;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-left: 5vw; 
   }
   
-  #abt-me {
-    width: 20vw; 
-    height: 3vw; 
-    padding-bottom: 3vw;
-    display:flex;
-    margin-top: -2vw;
-    word-wrap: break-word;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .right-group {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    gap: 2vw; 
   }
   
+  .right-group > div {
+    padding-right: 3vw; 
+  }
 
 /* ------------------------------ */
 /* ----------- STARS ------------ */
@@ -225,7 +149,7 @@ html {
 /* ------------------------------ */
 #cover{
     position:absolute;
-    /* background-color: D7DBEB; */
+    background-color: D7DBEB;
     width: 100vw;
     height: calc(100vh - (100vh / 12) - 0.2vh);
     margin:0;
@@ -237,8 +161,8 @@ html {
 #mia{
     position:absolute;
     font-size: 6vw;
-    margin-top: calc(40vh - (100vh / 12));
-    margin-left: 16vw;
+    margin-top: calc(55vh - (100vh / 12));
+    margin-left: 23vw;
     letter-spacing: 0.5vw;
 }
 
@@ -246,7 +170,7 @@ html {
   position:absolute;
   margin-left: calc((100vw - 5vw) / 2);
   width:4vw;
-  margin-top: 70vh;
+  margin-top: 80vh;
   z-index: 10;
 }
 #scroll img{
@@ -362,7 +286,7 @@ html {
 /* ---------- ABOUT ME ---------- */
 /* ------------------------------ */
 
-/* #abt-me{
+#abt-me{
   position:absolute;
   background-color: EEEBE9;
   width: 100vw;
@@ -371,7 +295,7 @@ html {
   margin-top: calc(100vh / 12 + 0.2vh);
   margin-left:0vw;
   z-index: 0;
-} */
+}
 
 #meet-me .small-title{
   position: relative;
