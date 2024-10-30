@@ -21,10 +21,12 @@ font-family: Helvetica Neue, sans-serif;
 }
 
 p{
-  font-size: 1vw;
+  font-size: 1.2vw;
   font-weight: 400;
   color: 15161A;
   font-family: Helvetica Neue, sans-serif;
+  margin:0;
+  margin-top: 0.8vw;
 }
 
 a{
@@ -44,6 +46,10 @@ scroll-behavior: smooth;
   position:relative;
   top: -0.15vw;
   margin-left: 10vw;
+}
+
+#bold{
+  font-weight: 800;
 }
 
 
@@ -135,14 +141,18 @@ scroll-behavior: smooth;
 /* ------ CASE STUDY COVER ------ */
 /* ------------------------------ */
 
-#container{
+.container{
   width: 100vw; 
   height:46vw; 
-  background-color: F3F0EE;
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: center; 
   display: inline-flex;
+}
+
+#cover{
+  background-color: F3F0EE;
+  
 }
 
 #break{
@@ -152,8 +162,6 @@ scroll-behavior: smooth;
 #cs-cover{
   align-self: center; 
   width:60vw; 
-  /* padding-left: 5vw;  */
-  /* padding-right: 5vw;  */
   padding-top: 2vw;
   flex-direction: column; 
   justify-content: flex-start; 
@@ -195,7 +203,6 @@ scroll-behavior: smooth;
 .cs-cover-item p{
   align-self: stretch; 
   color: #404451; 
-  font-size: 1.2vw; 
   font-family: Helvetica Neue; 
   font-weight: 400; 
   line-height: 2vw; 
@@ -222,10 +229,10 @@ scroll-behavior: smooth;
 
 .cs-cover-right p{
   color: #404451;  
-  font-size: 1.2vw;
   word-wrap: break-word;
   font-weight: 350;
   margin: 0;
+  line-height: 1.5vw;
 }
 #cs-cover-imgs{
   margin-top: 1vw;
@@ -260,4 +267,71 @@ scroll-behavior: smooth;
 
 #right-img img{
   width:100%;
+}
+
+
+/* ------------------------------ */
+/* ---------- OVERVIEW ---------- */
+/* ------------------------------ */
+
+#overview{
+  padding-top: 4vw;
+  width: 60vw; 
+  justify-content: left; 
+  align-items: center; 
+  gap: 7vw; 
+  display: inline-flex;
+  line-height: 1.5vw;
+  /* background-color: red; */
+}
+
+#overview-left{
+  width:28vw;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: inline-flex;
+}
+
+#problem{
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: flex-start; 
+  display: flex;
+}
+
+#goals{
+  margin-top: 3vw;
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: flex-start; 
+  display: flex;
+}
+
+
+#overview h2{
+  font-size: 1.7vw;
+  margin:0;
+  margin-bottom: 0.4vw;
+}
+
+#overview-right{
+  width: 20vw; 
+  padding-top: 1vw; 
+  padding-bottom: 1.5vw;
+  padding-left: 1.5vw; 
+  padding-right: 1.5vw; 
+  background: #F3F0EE; 
+  border-radius: 0.5vw; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: inline-flex;
+}
+
+#overview-right h2{
+  margin-bottom:0.5vw;
+  color: #573514
 }
