@@ -1,0 +1,145 @@
+body{
+  background-color: FFFFFF;
+  margin:0;
+  font-weight: 400;
+  color: 15161A;
+  font-family: Helvetica Neue, sans-serif;
+}
+
+h1{
+font-weight: 400;
+font-size: 4vw;
+color: 15161A;
+font-family: 'Hedvig Letters Serif', Times, serif;
+}
+
+h2{
+font-size: 1.5vw;
+font-weight: 500;
+color: 15161A;
+font-family: Helvetica Neue, sans-serif;
+}
+
+a{
+  font-style: italic;
+  text-decoration: none;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+
+/* ------------------------------ */
+/* ------------ MENU ------------ */
+/* ------------------------------ */
+.menu {
+  width: 100vw; 
+  height:2vw; 
+  min-height: 20px;
+  padding-top: 2vw; 
+  padding-bottom: 1vw; 
+  padding-left: 15vw; 
+  padding-right: 15vw; 
+  background: rgb(255, 255, 255); 
+  justify-content: center; 
+  align-items: center; 
+  display: inline-flex;
+  position: fixed;
+  z-index: 10;
+}
+
+.menu-left{
+  width: 10vw; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: flex;
+  position:fixed;
+  left: 3vw;
+}
+
+.menu-right{
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 3vw; 
+  display: flex;
+  position:fixed;
+  right: 0vw;
+}
+
+.menu a{
+  font-style: normal;
+}
+
+.menu a:hover{
+  font-style: italic;
+}
+
+
+#home {
+  width: 5vw; 
+  height: 4vw; 
+  bottom: 0;
+  overflow: hidden;
+  position:relative;
+  display:flex;
+  word-wrap: break-word;
+  justify-content: center;
+  align-items: flex-end;
+  text-align:center;
+}
+
+#select {
+  width: 10vw; 
+  height: 0px; 
+  border: 0.15vw #15161A solid;
+  position:absolute;
+  bottom: 0;
+}
+
+.right-item {
+  width: 10vw; 
+  height: 4vw; 
+  overflow: hidden;
+  position:relative;
+  bottom: 0;
+  display:flex;
+  word-wrap: break-word;
+  justify-content: center;
+  align-items: flex-end;
+  text-align:center;
+}
+
+/* ------------------------------ */
+/* ------ CASE STUDY COVER ------ */
+/* ------------------------------ */
+
+#container{
+  width: 100vw; 
+  height: 100vh; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 4vw; 
+  display: inline-flex;
+}
+
+#break{
+  height: 5vh;
+}
+
+#cs-cover{
+  align-self: stretch; 
+  height: 80vh; 
+  padding-left: 5vw; 
+  padding-right: 5vw; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 3vw; 
+  display: flex;
+}
+
+#cs-cover h1{
+  font-size: 5vw;
+}
