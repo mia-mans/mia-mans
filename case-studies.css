@@ -54,6 +54,8 @@ scroll-behavior: smooth;
   position:relative;
   top: -0.15vw;
   margin-left: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
 }
 
 #bold{
@@ -100,6 +102,7 @@ scroll-behavior: smooth;
   display: flex;
   position:fixed;
   right: 0vw;
+  margin-right: 3vw;
 }
 
 .menu a{
@@ -151,16 +154,17 @@ scroll-behavior: smooth;
 
 .container{
   width: 100vw; 
-  height:46vw; 
+  height:40vw;
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: center; 
   display: inline-flex;
+
 }
 
 #cover{
-  background-color: F3F0EE;
-  
+  background-color: #F3F0EE;
+  height:45vw;
 }
 
 #break{
@@ -224,7 +228,6 @@ scroll-behavior: smooth;
 
 .cs-cover-right{
   flex: 1 1 0;
-  /* padding-top: 1vw; */
   flex-direction: column; 
   justify-content: flex-start;
   align-items: left; 
@@ -243,7 +246,6 @@ scroll-behavior: smooth;
 #cs-cover-imgs{
   margin-top: 1vw;
   width: 60vw; 
-  /* height: vw;  */
   position: relative;
 }
 
@@ -299,6 +301,10 @@ scroll-behavior: smooth;
   display: inline-flex;
 }
 
+#overview-left h3{
+  padding-bottom: 0.5vw;
+}
+
 #problem{
   align-self: stretch; 
   flex-direction: column; 
@@ -346,8 +352,8 @@ scroll-behavior: smooth;
 /* ----------- PROCESS ---------- */
 /* ------------------------------ */
 
+
 #process-title{
-  margin-top: 2vw;
   margin-left: -45vw;
 }
 
@@ -478,6 +484,7 @@ scroll-behavior: smooth;
 
 #hmw-box{
   margin-top: 1vw;
+  height:13vw;
   padding: 1vw;
   padding-left: 2vw;
   background: #F3F0EE; 
