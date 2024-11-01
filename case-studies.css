@@ -32,6 +32,7 @@ p{
   font-size: 1.4vw;
   font-weight: 400;
   color: 15161A;
+  line-height: 1.3;
   font-family: Helvetica Neue, sans-serif;
   margin:0;
   margin-top: 0.8vw;
@@ -205,7 +206,8 @@ scroll-behavior: smooth;
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: flex-start; 
-  bottom:0;
+  top:0;
+  position:relative;
   display: inline-flex;
 }
 
@@ -226,6 +228,7 @@ scroll-behavior: smooth;
   line-height: 2vw; 
   word-wrap: break-word;
   margin-top: 0.2vw;
+  margin-bottom: 0;
 }
 
 .cs-cover-item h3{
@@ -247,7 +250,7 @@ scroll-behavior: smooth;
   word-wrap: break-word;
   font-weight: 350;
   margin: 0;
-  line-height: 1.5vw;
+  line-height: vw;
 }
 #cs-cover-imgs{
   margin-top: 1vw;
@@ -316,6 +319,7 @@ scroll-behavior: smooth;
 #goals{
   margin-top: 4vw;
   align-self: stretch; 
+  margin-bottom: 8vw;
   flex-direction: column; 
   justify-content: flex-start;
   align-items: flex-start; 
@@ -998,4 +1002,90 @@ scroll-behavior: smooth;
   top: 0.9vw; 
   background: #906E4C; 
   border-radius: 3vw;
+}
+
+
+/* ------------------------------ */
+/* ---------- PLANNING ---------- */
+/* ------------------------------ */
+
+#plan-cover{
+  width:60vw;  
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: left;
+  gap: 1vw; 
+  display: inline-flex;
+}
+
+#plan-text{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 0.7vw; 
+  display: flex;
+  margin-bottom: 4vw;
+}
+
+#plan-text p{
+  font-size: 1.7vw;
+}
+
+#plan-text h2{
+  margin:0;
+}
+
+#plan{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 4vw; 
+  display: flex;
+}
+
+#plan img{
+  width:100%;
+}
+
+
+
+.plan-comp{
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: inline-flex;
+}
+
+.plan-comp-text{
+  width: 30vw; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 0.5vw; 
+  display: inline-flex;
+  margin-right:5vw;
+
+}
+
+#plan-avail-img{
+  width:25vw;
+}
+
+#plan-prog-img{
+  width:23vw;
+  position:relative;
+  top: 5vw;
+  right: 0vw;
+  
+}
+
+#plan-sched-img{
+  width:23vw;
+  position:relative;
+  bottom: 3vw;
+  left:6vw;
+}
+
+#plan-cart-img{
+  width:25vw;
 }
