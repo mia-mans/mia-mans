@@ -450,7 +450,6 @@ scroll-behavior: smooth;
 
 .box{
   width: 30vw; 
-  /* height: 20px;  */
   padding:1.5vw;
   background: #F3F0EE; 
   border-radius: 0.5vw; 
@@ -515,3 +514,102 @@ scroll-behavior: smooth;
   border-radius: 3vw;
 }
 
+/* ------------------------------ */
+/* ------ INITIAL DESIGNS ------- */
+/* ------------------------------ */
+
+
+#mockups{
+  width: 60vw; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  align-self: center;
+  gap: 1vw; 
+  display: inline-flex;
+}
+
+#lowfi{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  display: flex;
+}
+
+#lowfi-cover{
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start;
+  gap: 1vw; 
+  display: flex;
+}
+
+#lowfi-text{
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  display: flex;
+  word-wrap: break-word;
+}
+
+
+#lowfi-pic-sec{
+  margin-top: 3vw;;
+  align-self: stretch; 
+  justify-content: left; 
+  align-items: flex-start; 
+  gap: 2vw; 
+  display: inline-flex;
+}
+
+#lowfi-pic-sec h3{
+  color:#404451
+}
+
+#lowfi-pic-sec img{
+  width:100%
+}
+
+.lowfi-pic{
+  width: 19vw; 
+  border: 0.80px #404451 solid;
+}
+
+.lowfi-pic-block{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  display: inline-flex;
+}
+
+#midfi{
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 3vw; 
+  display: flex;
+  margin-top: 3vw;
+}
+
+#midfi-text{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  display: flex;
+}
+
+#midfi-img{
+ width: 100vw; 
+ margin-top: 1vw;
+}
+
+#midfi-img img{
+  width:100%;
+}
