@@ -906,3 +906,96 @@ scroll-behavior: smooth;
   gap: 3vw; 
   display: inline-flex;
 }
+
+#prog{
+  width: 60vw; 
+  height:46vw;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: left; 
+  gap: 3vw; 
+  display: inline-flex;
+}
+
+#prog-text{
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: left; 
+  align-items: flex-start; 
+  gap: 0.7vw; 
+  display: flex;
+}
+
+#prog-img{
+  position: relative;
+}
+
+#prog-img img{
+  width:100%
+}
+
+#deg-img{
+  width:35vw;
+  right:2vw;
+  position: relative;
+}
+
+#deg-close-img{
+  width:26vw;
+  position: inherit;
+  left:35vw;
+  bottom:5vw
+}
+
+#deg-context{
+  bottom: 41vw;
+  left:35vw;
+  width:23vw;
+}
+
+#deg-context-line{
+  width: 15vw; 
+  height:0vw;
+  border: 0.1vw #906E4C solid;
+  position: relative;
+  left:27vw;
+  bottom:36vw;
+  rotate: -10deg;
+}
+
+#deg-context-bullet{
+  width: 0.7vw; 
+  height: 0.7vw; 
+  position:relative;
+  right: 9vw;
+  top: 5.8vw; 
+  background: #906E4C; 
+  border-radius: 3vw;
+}
+
+
+#deg-close{
+  bottom: 23vw;
+  left:6vw;
+  width:23vw;
+}
+
+#deg-close-line{
+  width: 15vw; 
+  height:0vw;
+  border: 0.1vw #906E4C solid;
+  position: relative;
+  left:21vw;
+  bottom:20.3vw;
+  rotate: -10deg;
+}
+
+#deg-close-bullet{
+  width: 0.7vw; 
+  height: 0.7vw; 
+  position:relative;
+  left:29vw;
+  top: 0.9vw; 
+  background: #906E4C; 
+  border-radius: 3vw;
+}
