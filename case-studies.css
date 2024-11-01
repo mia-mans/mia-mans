@@ -14,14 +14,14 @@ font-family: 'Hedvig Letters Serif', Times, serif;
 }
 
 h2{
-font-size: 3vw;
+font-size: 2.3vw;
 font-weight: 500;
 color: 15161A;
 font-family: Helvetica Neue, sans-serif;
 }
 
 h3{
-  font-size: 1.7vw;
+  font-size: 1.8vw;
   font-weight: 500;
   margin: 0;
   color: 15161A;
@@ -29,7 +29,7 @@ h3{
 }
 
 p{
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   font-weight: 400;
   color: 15161A;
   font-family: Helvetica Neue, sans-serif;
@@ -314,7 +314,7 @@ scroll-behavior: smooth;
 }
 
 #goals{
-  margin-top: 3vw;
+  margin-top: 4vw;
   align-self: stretch; 
   flex-direction: column; 
   justify-content: flex-start;
@@ -428,6 +428,7 @@ scroll-behavior: smooth;
   align-items: flex-start; 
   gap: 2vw; 
   display: flex;
+  margin-top: 3vw;
 }
 
 #research-synthesis-text p{
@@ -437,6 +438,7 @@ scroll-behavior: smooth;
 #synthesis-boxes{
   width:75vw;
   margin-left: -5vw;
+  margin-top: 2vw;
   align-self: stretch; 
   justify-content: center; 
   align-items: flex-start; 
@@ -462,7 +464,7 @@ scroll-behavior: smooth;
 
 
 #hmw{
-  margin-top: 3vw;
+  margin-top: 6vw;
   width:60vw;
   align-self: scenter; 
   flex-direction: column; 
@@ -567,7 +569,8 @@ scroll-behavior: smooth;
 }
 
 #lowfi-pic-sec h3{
-  color:#404451
+  color:#404451;
+  font-size: 1.6vw;
 }
 
 #lowfi-pic-sec img{
@@ -587,14 +590,18 @@ scroll-behavior: smooth;
   display: inline-flex;
 }
 
+/* ------------------------------ */
+/* ----------- MID-FI ----------- */
+/* ------------------------------ */
+
 #midfi{
   align-self: stretch; 
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: center; 
-  gap: 3vw; 
+  gap: 5vw; 
   display: flex;
-  margin-top: 3vw;
+  margin-top: 5vw;
 }
 
 #midfi-text{
@@ -613,3 +620,202 @@ scroll-behavior: smooth;
 #midfi-img img{
   width:100%;
 }
+
+/* ------------------------------ */
+/* ----------- HIGH-FI ---------- */
+/* ------------------------------ */
+
+#hifi-cover{
+  width: 60vw; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  align-self: center;
+  gap: 1vw; 
+  display: inline-flex;
+}
+
+#hifi-intro{
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  display: flex;
+}
+
+#hifi-intro h2{
+  margin:0;
+}
+
+
+
+#hifi-home{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  margin-top: 3vw;
+  display: flex;
+}
+
+#hifi-home-text{
+  align-self: stretch;
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 0vw; 
+  display: flex;
+}
+
+#hifi-home-imgs{
+  margin-top: 2vw;
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: center; 
+  align-self: center;
+  gap: 5vw; 
+  display: inline-flex;
+}
+
+#hifi-home-imgs h3{
+  color:#404451;
+}
+
+#hifi-before-after{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  display: inline-flex;
+}
+
+#hifi-after-img{
+  width: 27vw;
+  box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
+  border-radius: 0.5vw;
+  overflow: hidden;
+}
+
+#hifi-before-img{
+  width: 29.5vw;
+  box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
+  border-radius: 0.5vw;
+  overflow: hidden;
+}
+
+#hifi-before-after img{
+  width:100%;
+}
+
+#navigation{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  gap: 1.5vw; 
+  display: inline-flex;
+  width: 40vw;
+}
+
+#navigation h3{
+  font-size: 2.2vw;
+}
+
+#nav-img{
+  width: 40vw; 
+  box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
+  border-radius: 0.5vw; 
+  overflow: hidden;
+}
+
+#nav-img img{
+  width: 100%;
+}
+
+.nav-info{
+  width: 18vw; 
+  position: relative;
+  padding: 0.8vw;
+  padding-bottom: 1.5vw;
+  background-color: #F3F0EE;
+  border-radius: 0.5vw; 
+}
+
+.nav-info p{
+  color:#573514;
+}
+
+#nav-cart{
+  top: -10vw;
+  left:45vw;
+}
+
+#nav-cart-line{
+  width: 10vw; 
+  height:0vw;
+  border: 0.1vw #906E4C solid;
+  position: relative;
+  top: -3vw;
+  left:38vw;
+  rotate: 10deg;
+}
+
+#nav-cart-bullet{
+  width: 0.7vw; 
+  height: 0.7vw; 
+  position:relative;
+  left: 38vw;
+  top: -5.8vw; 
+  background: #906E4C; 
+  border-radius: 3vw;
+}
+
+#nav-toggle{
+  top: -50vw;
+  left:45vw;
+}
+
+#nav-toggle-line{
+  width: 10vw; 
+  height:0vw;
+  border: 0.1vw #906E4C solid;
+  position: relative;
+  top: -43vw;
+  left:38vw;
+  rotate: -8deg;
+}
+
+#nav-toggle-bullet{
+  width: 0.7vw; 
+  height: 0.7vw; 
+  position:relative;
+  left: 38vw;
+  top: -44.3vw; 
+  background: #906E4C; 
+  border-radius: 3vw;
+}
+
+#nav-search{
+  top: -53vw;
+  left:-23vw;
+}
+
+#nav-search-line{
+  width: 9vw; 
+  height:0vw;
+  border: 0.1vw #906E4C solid;
+  position: relative;
+  top: -46vw;
+  left:-7vw;
+  rotate: -33deg;
+}
+
+#nav-search-bullet{
+  width: 0.7vw; 
+  height: 0.7vw; 
+  position:relative;
+  left: 1vw;
+  top: -50.3vw; 
+  background: #906E4C; 
+  border-radius: 3vw;
+}
+
