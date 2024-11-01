@@ -438,10 +438,9 @@ scroll-behavior: smooth;
 }
 
 #synthesis-boxes{
-  width:75vw;
-  margin-left: -5vw;
+  width:80vw;
   margin-top: 2vw;
-  align-self: stretch; 
+  align-self: center; 
   justify-content: center; 
   align-items: flex-start; 
   gap: 3vw; 
@@ -454,6 +453,7 @@ scroll-behavior: smooth;
 
 .box{
   width: 30vw; 
+  height:20vw;
   padding:1.5vw;
   background: #F3F0EE; 
   border-radius: 0.5vw; 
