@@ -714,6 +714,8 @@ scroll-behavior: smooth;
   gap: 1.5vw; 
   display: inline-flex;
   width: 40vw;
+  height: 46vw;
+  /* background-color: red; */
 }
 
 #navigation h3{
@@ -722,6 +724,8 @@ scroll-behavior: smooth;
 
 #nav-img{
   width: 40vw; 
+  position:absolute;
+  margin-top: 4vw;
   box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
   border-radius: 0.5vw; 
   overflow: hidden;
@@ -734,8 +738,9 @@ scroll-behavior: smooth;
 .nav-info{
   width: 18vw; 
   position: relative;
-  padding: 0.8vw;
+  padding: 1vw;
   padding-bottom: 1.5vw;
+  padding-top: 0vw;
   background-color: #F3F0EE;
   border-radius: 0.5vw; 
 }
@@ -745,7 +750,7 @@ scroll-behavior: smooth;
 }
 
 #nav-cart{
-  top: -10vw;
+  bottom: -16vw;
   left:45vw;
 }
 
@@ -754,23 +759,23 @@ scroll-behavior: smooth;
   height:0vw;
   border: 0.1vw #906E4C solid;
   position: relative;
-  top: -3vw;
+  bottom: -24vw;
   left:38vw;
-  rotate: 10deg;
+  rotate: -14deg;
 }
 
 #nav-cart-bullet{
   width: 0.7vw; 
   height: 0.7vw; 
   position:relative;
-  left: 38vw;
-  top: -5.8vw; 
+  right: 8vw;
+  top: 7.2vw; 
   background: #906E4C; 
   border-radius: 3vw;
 }
 
 #nav-toggle{
-  top: -50vw;
+  bottom: 15vw;
   left:45vw;
 }
 
@@ -779,24 +784,24 @@ scroll-behavior: smooth;
   height:0vw;
   border: 0.1vw #906E4C solid;
   position: relative;
-  top: -43vw;
-  left:38vw;
-  rotate: -8deg;
+  bottom: 8.7vw;
+  left:39vw;
+  rotate: 15deg;
 }
 
 #nav-toggle-bullet{
   width: 0.7vw; 
   height: 0.7vw; 
   position:relative;
-  left: 38vw;
-  top: -44.3vw; 
+  left: -7vw;
+  top: 3.1vw; 
   background: #906E4C; 
   border-radius: 3vw;
 }
 
 #nav-search{
-  top: -53vw;
-  left:-23vw;
+  bottom: 18vw;
+  left:-22vw;
 }
 
 #nav-search-line{
@@ -804,7 +809,7 @@ scroll-behavior: smooth;
   height:0vw;
   border: 0.1vw #906E4C solid;
   position: relative;
-  top: -46vw;
+  bottom: 12vw;
   left:-7vw;
   rotate: -33deg;
 }
@@ -813,9 +818,10 @@ scroll-behavior: smooth;
   width: 0.7vw; 
   height: 0.7vw; 
   position:relative;
-  left: 1vw;
-  top: -50.3vw; 
+  left: 22vw;
+  top: 1.7vw; 
   background: #906E4C; 
   border-radius: 3vw;
 }
+
 
