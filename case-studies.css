@@ -868,3 +868,41 @@ scroll-behavior: smooth;
 #search-pics img{
   width: 100%;
 }
+
+#confirmation{
+  flex-direction: column; 
+  width:60vw;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 2vw; 
+  display: inline-flex;
+}
+
+#confirmation-text{
+  align-self: stretch; 
+  gap: 1vw; 
+  display: flex;
+  flex-direction: column;
+}
+
+#confirmation-pics{
+  margin-top: 2vw;
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 3vw; 
+  display: inline-flex;
+}
+
+#confirmation-pics img{
+  width:100%
+}
+
+#confirmation-yes-no{
+  width: 35vw; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 3vw; 
+  display: inline-flex;
+}
