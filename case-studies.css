@@ -62,6 +62,12 @@ scroll-behavior: smooth;
   font-weight: 800;
 }
 
+.pic-shadow{
+  box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
+  border-radius: 0.7vw;
+  overflow:hidden;
+}
+
 
 /* ------------------------------ */
 /* ------------ MENU ------------ */
@@ -254,9 +260,6 @@ scroll-behavior: smooth;
   left: 2vw; 
   top: 0; 
   position: absolute; 
-  box-shadow: -4px 4px 5.699999809265137px rgba(83, 51, 19, 0.40); 
-  border-radius: 0.5vw;
-  overflow: hidden;
 }
 
 #left-img img{
@@ -268,9 +271,6 @@ scroll-behavior: smooth;
   left: 18vw; 
   top:4vw; 
   position: absolute; 
-  box-shadow: -4px 4px 5.699999809265137px rgba(83, 51, 19, 0.40);
-  border-radius: 0.5vw;
-  overflow: hidden;
 }
 
 #right-img img{
@@ -397,8 +397,6 @@ scroll-behavior: smooth;
 
 #figjam-imgs img{
   width: 100%;
-  border-radius: 0.5vw; 
-  border: 0.15vw #CEBAA6 dotted;
   border-radius: 0.5vw; 
   border: 0.15vw #CEBAA6 dotted;
 }
@@ -692,16 +690,10 @@ scroll-behavior: smooth;
 
 #hifi-after-img{
   width: 27vw;
-  box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
-  border-radius: 0.5vw;
-  overflow: hidden;
 }
 
 #hifi-before-img{
-  width: 29.5vw;
-  box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
-  border-radius: 0.5vw;
-  overflow: hidden;
+  width: 29.5vw; 
 }
 
 #hifi-before-after img{
@@ -715,7 +707,6 @@ scroll-behavior: smooth;
   display: inline-flex;
   width: 40vw;
   height: 46vw;
-  /* background-color: red; */
 }
 
 #navigation h3{
@@ -726,9 +717,6 @@ scroll-behavior: smooth;
   width: 40vw; 
   position:absolute;
   margin-top: 4vw;
-  box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
-  border-radius: 0.5vw; 
-  overflow: hidden;
 }
 
 #nav-img img{
@@ -825,3 +813,58 @@ scroll-behavior: smooth;
 }
 
 
+#search{
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: inline-flex;
+  width:60vw;
+}
+
+#search-text{
+  align-self: stretch; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 1vw; 
+  display: flex;
+}
+
+#search-before-after{
+  align-self: stretch; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 4vw; 
+  display: inline-flex;
+}
+
+#before-after-text{
+  width: 32vw; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 0.5vw; 
+  display: inline-flex;
+}
+
+#search-pics{
+  margin-top: 4vw;
+  margin-left:4vw;
+  gap: 5vw; 
+  display: inline-flex;
+  justify-content: center; 
+  align-self: right;
+  align-items: flex-start; 
+}
+
+#search-pics-stack{
+  width: 30vw; 
+  justify-content: center; 
+  align-items: flex-start; 
+  gap: 2vw; 
+  display: flex;
+}
+
+#search-pics img{
+  width: 100%;
+}
