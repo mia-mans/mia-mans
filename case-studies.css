@@ -57,7 +57,7 @@ scroll-behavior: smooth;
   border-radius: 0.15vw; 
   position:relative;
   top: -0.15vw;
-  margin-left: 20vw;
+  /* margin-left: 20vw; */
   margin-top: 5vw;
   margin-bottom: 5vw;
 }
@@ -164,7 +164,7 @@ scroll-behavior: smooth;
 
 .container{
   width: 100vw; 
-  height:38vw;
+  /* height:38vw; */
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: center; 
@@ -355,7 +355,7 @@ scroll-behavior: smooth;
   width: 35vw; 
   padding-top: 1vw; 
   margin-top: -4vw;
-  padding-bottom: 1.5vw;
+  padding-bottom: 3vw;
   padding-left: 1.5vw; 
   padding-right: 1.5vw; 
   background: #F3F0EE; 
@@ -462,11 +462,12 @@ scroll-behavior: smooth;
 
 #synthesis-boxes h3{
   color: #573514;
+  margin-bottom: -1vw;
 }
 
 .box{
   width: 30vw; 
-  height:20vw;
+  height:15vw;
   padding:1.5vw;
   background: #F3F0EE; 
   border-radius: 0.5vw; 
@@ -500,9 +501,8 @@ scroll-behavior: smooth;
 
 #hmw-box{
   margin-top: 1vw;
-  height:13vw;
-  padding: 1vw;
-  padding-left: 2vw;
+  padding: 2vw;
+  padding-top: -2vw;
   background: #F3F0EE; 
   border-radius: 0.5vw; 
   flex-direction: column; 
@@ -513,19 +513,19 @@ scroll-behavior: smooth;
 
 .item{
   position: relative;
+  margin-bottom: 1vw;
 }
 
 .item p{
   margin-left: 1.2vw;
-  margin-top: 1.5vw;
-  font-size: 1.5vw;
+  margin-top: 0.4vw;
 }
 
 .bullet-point{
   width: 0.5vw; 
   height: 0.5vw; 
   left: 0px; 
-  top: 2vw; 
+  top: 1vw; 
   position: absolute; 
   background: #15161A; 
   border-radius: 3vw;
@@ -1104,7 +1104,7 @@ scroll-behavior: smooth;
 }
 
 #summary{
-  width: 80vw; 
+  width: 70vw; 
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: left; 
@@ -1115,8 +1115,6 @@ scroll-behavior: smooth;
 
 #summary p{
   margin-left: 10vw;
-  margin-right: 10vw;
-  font-size: 1.7vw;
-  line-height: 1.4;
+  /* margin-right: 10vw;  */
 }
 
