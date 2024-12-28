@@ -259,7 +259,7 @@ body{
     margin: 0;
     line-height: vw;
   }
-  
+
   #cs-cover-imgs{
     margin-top: 0vw;
     width: 40vw; 
@@ -318,6 +318,7 @@ body{
     justify-content: flex-start; 
     align-items: flex-start; 
     display: inline-flex;
+    
   }
   
   #overview-left h3{
@@ -334,7 +335,7 @@ body{
   
   #goals{
     align-self: stretch; 
-    margin-bottom: 8vw;
+    margin-bottom: 2vw;
     flex-direction: column; 
     justify-content: flex-start;
     align-items: flex-start; 
@@ -350,35 +351,25 @@ body{
   
   #overview-right{
     width:25vw;
+    height: auto;
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
     display: inline-flex;
-  }
-  
-  #overview-bottom h3{
-    margin-bottom:0.5vw;
-    color: #573514
-  }
-  
-  #overview-bottom{
-    width: 35vw; 
     padding-top: 1vw; 
-    margin-top: -4vw;
-    padding-bottom: 3vw;
+    margin-top: 2vw;
     padding-left: 1.5vw; 
     padding-right: 1.5vw; 
     background: #F3F0EE; 
-    border-radius: 0.5vw; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    display: inline-flex;
+    border-radius: 0.7vw; 
+    box-sizing: border-box;
   }
   
-  #tab{
-    padding-left: 2vw;
+  #overview-right h3{
+    margin-bottom:0.5vw;
+    color: #573514
   }
+
   
   /* ------------------------------ */
   /* ----------- PROCESS ---------- */
@@ -409,6 +400,8 @@ body{
     justify-content: flex-start;
     align-items: flex-start; 
     gap: 0.5vw;
+    margin-left: 7vw;
+    margin-right: 7vw;
     display: flex;
   }
   
@@ -438,6 +431,8 @@ body{
   
   #research-synthesis{
     align-self: stretch; 
+    margin-left: 7vw;
+    margin-right: 7vw;
     /* height: 441px;  */
     flex-direction: column; 
     justify-content: flex-start; 
@@ -477,8 +472,11 @@ body{
   
   .box{
     width: 30vw; 
-    height:15vw;
-    padding:1.5vw;
+    height:auto;
+    padding-left:1.5vw;
+    padding-top: 0.5vw;
+    padding-right:1.5vw;
+    padding-bottom:1.5vw;
     background: #F3F0EE; 
     border-radius: 0.5vw; 
     flex-direction: column; 
@@ -491,13 +489,15 @@ body{
   
   #hmw{
     margin-top: 6vw;
-    width:60vw;
+    width:50vw;
     align-self: scenter; 
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: center; 
     gap: 1.5vw; 
     display: flex;
+    margin-left: 7vw;
+    margin-right: 7vw;
   }
   
   #hmw-text{
@@ -548,6 +548,7 @@ body{
   
   #mockups{
     width: 60vw; 
+    height:auto;
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: center; 
@@ -574,6 +575,8 @@ body{
   }
   
   #lowfi-text{
+    margin-left: 7vw;
+    margin-right: 7vw;
     align-self: stretch; 
     flex-direction: column; 
     justify-content: flex-start; 
@@ -585,11 +588,11 @@ body{
   
   
   #lowfi-pic-sec{
-    margin-top: 3vw;;
+    margin-top: 1vw;
     align-self: stretch; 
     justify-content: left; 
     align-items: flex-start; 
-    gap: 2vw; 
+    gap: 4vw; 
     display: inline-flex;
   }
   
@@ -602,8 +605,16 @@ body{
     width:100%
   }
   
-  .lowfi-pic{
-    width: 19vw; 
+  .lowfi-pic-desktop{
+    width: 17vw; 
+    border: 0.80px #404451 solid;
+  }
+
+  .lowfi-pic-mobile{
+    width: 6vw; 
+    margin-left: 13vw; 
+    margin-top: 7vw;
+    position: absolute; 
     border: 0.80px #404451 solid;
   }
   
@@ -615,36 +626,6 @@ body{
     display: inline-flex;
   }
   
-  /* ------------------------------ */
-  /* ----------- MID-FI ----------- */
-  /* ------------------------------ */
-  
-  #midfi{
-    align-self: stretch; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: center; 
-    gap: 5vw; 
-    display: flex;
-    margin-top: 5vw;
-  }
-  
-  #midfi-text{
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 1vw; 
-    display: flex;
-  }
-  
-  #midfi-img{
-   width: 100vw; 
-   margin-top: 1vw;
-  }
-  
-  #midfi-img img{
-    width:100%;
-  }
   
   /* ------------------------------ */
   /* ----------- HIGH-FI ---------- */
@@ -673,41 +654,65 @@ body{
     margin:0;
   }
   
-  
-  
-  #hifi-home{
+  #hifi-sec{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
     gap: 1vw; 
     margin-top: 3vw;
+    margin-bottom: 3vw;
     display: flex;
   }
   
-  #hifi-home-text{
-    align-self: stretch;
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 0vw; 
+  #hifi-sec-text{
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1vw;
+  }
+
+  .home{
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+
+  .trip{
+    margin-left: 11vw;
+    margin-right: 11vw;
+  }
+
+  .save{
+    margin-left: 9vw;
+    margin-right: 9vw;
   }
   
-  #hifi-home-imgs{
+  #hifi-sec-imgs{
     margin-top: 2vw;
     align-self: stretch; 
     justify-content: flex-start; 
     align-items: center; 
-    align-self: center;
-    gap: 5vw; 
+    align-self: center; 
     display: inline-flex;
   }
+
+  .further{
+    gap: 4vw;
+  }
+
+  .closer{
+    gap: 2vw;
+  }
+
+  #hifi-sec-imgs img{
+    width:100%;
+  }
   
-  #hifi-home-imgs h3{
+  #hifi-sec-imgs h3{
     color:#404451;
   }
   
-  #hifi-before-after{
+  #hifi-sec-img-1{
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: flex-start; 
@@ -715,417 +720,27 @@ body{
     display: inline-flex;
   }
   
-  #hifi-after-img{
-    width: 27vw;
+  #hifi-sec-desktop{
+    width: 30vw;
   }
   
-  #hifi-before-img{
-    width: 29.5vw; 
-  }
-  
-  #hifi-before-after img{
-    width:100%;
-  }
-  
-  #navigation{
-    flex-direction: column; 
-    justify-content: flex-start; 
-    gap: 1.5vw; 
-    display: inline-flex;
-    width: 40vw;
-    height: 46vw;
-  }
-  
-  #navigation h3{
-    font-size: 2.2vw;
-  }
-  
-  #nav-img{
-    width: 40vw; 
-    position:absolute;
-    margin-top: 4vw;
-  }
-  
-  #nav-img img{
-    width: 100%;
-  }
-  
-  .nav-info{
-    width: 18vw; 
-    position: relative;
-    padding: 1vw;
-    padding-bottom: 1.5vw;
-    padding-top: 0vw;
-    background-color: #F3F0EE;
-    border-radius: 0.5vw; 
-  }
-  
-  .nav-info p{
-    color:#573514;
-  }
-  
-  #nav-cart{
-    bottom: -16vw;
-    left:45vw;
-  }
-  
-  #nav-cart-line{
+  #hifi-sec-mobile{
     width: 10vw; 
-    height:0vw;
-    border: 0.1vw #906E4C solid;
-    position: relative;
-    bottom: -24vw;
-    left:38vw;
-    rotate: -14deg;
   }
   
-  #nav-cart-bullet{
-    width: 0.7vw; 
-    height: 0.7vw; 
-    position:relative;
-    right: 8vw;
-    top: 7.2vw; 
-    background: #906E4C; 
-    border-radius: 3vw;
-  }
-  
-  #nav-toggle{
-    bottom: 15vw;
-    left:45vw;
-  }
-  
-  #nav-toggle-line{
-    width: 10vw; 
-    height:0vw;
-    border: 0.1vw #906E4C solid;
-    position: relative;
-    bottom: 8.7vw;
-    left:39vw;
-    rotate: 15deg;
-  }
-  
-  #nav-toggle-bullet{
-    width: 0.7vw; 
-    height: 0.7vw; 
-    position:relative;
-    left: -7vw;
-    top: 3.1vw; 
-    background: #906E4C; 
-    border-radius: 3vw;
-  }
-  
-  #nav-search{
-    bottom: 18vw;
-    left:-22vw;
-  }
-  
-  #nav-search-line{
-    width: 9vw; 
-    height:0vw;
-    border: 0.1vw #906E4C solid;
-    position: relative;
-    bottom: 12vw;
-    left:-7vw;
-    rotate: -33deg;
-  }
-  
-  #nav-search-bullet{
-    width: 0.7vw; 
-    height: 0.7vw; 
-    position:relative;
-    left: 22vw;
-    top: 1.7vw; 
-    background: #906E4C; 
-    border-radius: 3vw;
-  }
-  
-  
-  #search{
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: center; 
-    display: inline-flex;
-    width:60vw;
-  }
-  
-  #search-text{
-    align-self: stretch; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 1vw; 
-    display: flex;
-  }
-  
-  #search-before-after{
-    align-self: stretch; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 4vw; 
-    display: inline-flex;
-  }
-  
-  #before-after-text{
-    width: 32vw; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 0.5vw; 
-    display: inline-flex;
-  }
-  
-  #search-pics{
-    margin-top: 4vw;
-    margin-left:4vw;
-    gap: 5vw; 
-    display: inline-flex;
-    justify-content: center; 
-    align-self: right;
-    align-items: flex-start; 
-  }
-  
-  #search-pics-stack{
-    width: 30vw; 
-    justify-content: center; 
-    align-items: flex-start; 
-    gap: 2vw; 
-    display: flex;
-  }
-  
-  #search-pics img{
-    width: 100%;
-  }
-  
-  #confirmation{
-    flex-direction: column; 
-    width:60vw;
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 2vw; 
-    display: inline-flex;
-  }
-  
-  #confirmation-text{
-    align-self: stretch; 
-    gap: 1vw; 
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #confirmation-pics{
-    margin-top: 2vw;
-    align-self: stretch; 
-    justify-content: flex-start; 
-    align-items: center; 
-    gap: 3vw; 
-    display: inline-flex;
-  }
-  
-  #confirmation-pics img{
-    width:100%
-  }
-  
-  #confirmation-yes-no{
-    width: 35vw; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 3vw; 
-    display: inline-flex;
-  }
-  
-  #prog{
-    width: 60vw; 
-    height:46vw;
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: left; 
-    gap: 3vw; 
-    display: inline-flex;
-  }
-  
-  #prog-text{
-    align-self: stretch; 
-    flex-direction: column; 
-    justify-content: left; 
-    align-items: flex-start; 
-    gap: 0.7vw; 
-    display: flex;
-  }
-  
-  #prog-img{
-    position: relative;
-  }
-  
-  #prog-img img{
-    width:100%
-  }
-  
-  #deg-img{
-    width:35vw;
-    right:2vw;
-    position: relative;
-  }
-  
-  #deg-close-img{
-    width:26vw;
-    position: inherit;
-    left:35vw;
-    bottom:5vw
-  }
-  
-  #deg-context{
-    bottom: 41vw;
-    left:35vw;
-    width:23vw;
-  }
-  
-  #deg-context-line{
-    width: 15vw; 
-    height:0vw;
-    border: 0.1vw #906E4C solid;
-    position: relative;
-    left:27vw;
-    bottom:36vw;
-    rotate: -10deg;
-  }
-  
-  #deg-context-bullet{
-    width: 0.7vw; 
-    height: 0.7vw; 
-    position:relative;
-    right: 9vw;
-    top: 5.8vw; 
-    background: #906E4C; 
-    border-radius: 3vw;
-  }
-  
-  
-  #deg-close{
-    bottom: 23vw;
-    left:6vw;
-    width:23vw;
-  }
-  
-  #deg-close-line{
-    width: 15vw; 
-    height:0vw;
-    border: 0.1vw #906E4C solid;
-    position: relative;
-    left:21vw;
-    bottom:20.3vw;
-    rotate: -10deg;
-  }
-  
-  #deg-close-bullet{
-    width: 0.7vw; 
-    height: 0.7vw; 
-    position:relative;
-    left:29vw;
-    top: 0.9vw; 
-    background: #906E4C; 
-    border-radius: 3vw;
-  }
-  
-  
-  /* ------------------------------ */
-  /* ---------- PLANNING ---------- */
-  /* ------------------------------ */
-  
-  #plan-cover{
-    width:60vw;  
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: left;
-    gap: 1vw; 
-    display: inline-flex;
-  }
-  
-  #plan-text{
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 0.7vw; 
-    display: flex;
-    margin-bottom: 4vw;
-  }
-  
-  #plan-text p{
-    font-size: 1.7vw;
-  }
-  
-  #plan-text h2{
-    margin:0;
-  }
-  
-  #plan{
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 4vw; 
-    display: flex;
-  }
-  
-  #plan img{
-    width:100%;
-  }
-  
-  
-  
-  .plan-comp{
-    align-self: stretch; 
-    justify-content: flex-start; 
-    align-items: center; 
-    display: inline-flex;
-  }
-  
-  .plan-comp-text{
-    width: 30vw; 
-    flex-direction: column; 
-    justify-content: flex-start; 
-    align-items: flex-start; 
-    gap: 0.5vw; 
-    display: inline-flex;
-    margin-right:5vw;
-  
-  }
-  
-  #plan-avail-img{
-    width:25vw;
-  }
-  
-  #plan-prog-img{
-    width:23vw;
-    position:relative;
-    top: 5vw;
-    right: 0vw;
-    
-  }
-  
-  #plan-sched-img{
-    width:23vw;
-    position:relative;
-    bottom: 3vw;
-    left:6vw;
-  }
-  
-  #plan-cart-img{
-    width:25vw;
-  }
-  
+
+
   #summary{
-    width: 70vw; 
+    width: 60vw; 
     flex-direction: column; 
     justify-content: flex-start; 
     align-items: left; 
-    gap: 2vw; 
+    gap: 1vw; 
     display: inline-flex;
-    
-  }
-  
-  #summary p{
     margin-left: 10vw;
-    /* margin-right: 10vw;  */
+    margin-right: 10vw;
   }
   
-  
+  #summary h2{
+    margin-bottom: 0vw;
+  }

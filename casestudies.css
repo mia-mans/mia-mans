@@ -1040,9 +1040,7 @@ scroll-behavior: smooth;
   margin-bottom: 4vw;
 }
 
-#plan-text p{
-  font-size: 1.7vw;
-}
+
 
 #plan-text h2{
   margin:0;
@@ -1104,17 +1102,16 @@ scroll-behavior: smooth;
 }
 
 #summary{
-  width: 70vw; 
+  width: 60vw; 
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: left; 
-  gap: 2vw; 
+  gap: 1vw; 
   display: inline-flex;
-  
-}
-
-#summary p{
   margin-left: 10vw;
-  /* margin-right: 10vw;  */
+  margin-right: 10vw;
 }
 
+#summary h2{
+  margin-bottom: 0vw;
+}
