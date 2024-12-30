@@ -869,7 +869,7 @@ body{
     }
   
     .cs-cover-right p{
-      font-size: 3vw;;
+      font-size: 3vw;
     }
   
     #phone-text{
@@ -884,7 +884,7 @@ body{
       font-family: 'Hedvig Letters Serif', Times, serif;
       letter-spacing: 0.2vw;
       font-size: 4vw;
-      margin-top: -2vh;
+      margin-top: -1vh;
       color: #885421;
     }
   
