@@ -1207,6 +1207,7 @@ scroll-behavior: smooth;
 
   .cs-cover-item p{
     font-size: 3vw;
+    line-height: 130%;
   }
 
   .cs-cover-right{
@@ -1220,7 +1221,7 @@ scroll-behavior: smooth;
   #phone-text{
     display:block;
     width: 80vw;
-    margin-top: 8vh;
+    margin-top: 5vh;
     text-align: center;
   }
   
