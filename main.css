@@ -429,12 +429,16 @@ html {
 /* ------------NARROW SCREEN----------- */
 /* ------------------------------------ */
 @media only screen and (max-aspect-ratio: 1/1){
-  .menu{
-    display:none;
+  #home{
+    width: 20vw;
   }
 
-  #cover{
-    margin-top: 2.5vw;
+  .right-item{
+    width: 20vw;
+  }
+
+  .menu h3{
+    font-size: 3vw;
   }
 
   #mia{
@@ -460,7 +464,7 @@ html {
   #phone-text{
     display:block;
     width: 80vw;
-    margin-top: 45vh;
+    margin-top: 36vh;
     text-align: center;
   }
   
@@ -470,7 +474,7 @@ html {
     letter-spacing: 0.2vw;
     font-size: 4vw;
     margin-top: -2vh;
-    color: #906E4C;
+    color: #885421;
   }
 
   #phone-contact{
@@ -482,9 +486,9 @@ html {
 
   #phone-contact p{
     font-family: 'Hedvig Letters Serif', Times, serif;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.1vw;
     font-size: 3vw;
-    margin-top: -2vh;
+    margin-top: -2.55vh;
     text-align: center;
   }
 
