@@ -304,7 +304,7 @@ body{
   
   #overview{
     padding-top: 4vw;
-    width: 50vw; 
+    width: 56vw; 
     justify-content: left; 
     align-items: flex-start; 
     gap: 4vw; 
@@ -353,7 +353,7 @@ body{
   }
   
   #overview-right{
-    width:25vw;
+    width:30vw;
     height: auto;
     flex-direction: column; 
     justify-content: flex-start; 
