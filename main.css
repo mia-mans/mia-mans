@@ -279,10 +279,10 @@ html {
 
 
 #intro-content{
-  width:55vw; 
+  width:60vw; 
   height: 30vw; 
   position:relative;
-  margin-top: calc(40vh - 30vw/2);
+  /* margin-top: calc(40vh - 30vw/2); */
   justify-content: flex-start; 
   align-items: center; 
   gap: 7vw; 
@@ -300,8 +300,8 @@ html {
 }
 
 #me{
-  padding-top: 5vh;
-  width: 20vw; 
+  padding-top: 2vh;
+  width: 15vw; 
 }
 
 #me img{
@@ -326,4 +326,92 @@ html {
   align-self: stretch;
   word-wrap: break-word;
   color: 404451;
+}
+
+
+
+/* ------------------------------ */
+/* -------- CASE STUDIES -------- */
+/* ------------------------------ */
+
+#case-title{
+  margin-top: 5vw;
+  position:absolue;
+  margin-left: -43vw;
+}
+
+#case-container{
+  margin-left: -43vw;
+  height:40vw;
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 5vw; 
+  display: inline-flex;
+  padding-left: calc((100vw - 22vw - 22vw - 22vw - 5vw - 5vw) / 2);
+  margin-top: -8vw;
+  position:absolute;
+}
+
+#case-container a{
+  font-style: normal;
+}
+
+.case{
+  width: 22vw; 
+  padding-top: 15vw; 
+  box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.1); 
+  border-radius: 0.5vw; 
+  overflow: hidden; 
+  /* border: 0.1vw solid; */
+  background-size: contain;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+#explorer{
+  background-image: url('./images/explorermock.png'); 
+  background-position-x: center;
+  background-position-y: -1.8vw;
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-color: #fbe7f8;
+}
+
+
+#pathatpenn{
+  background-image: url('./images/p@pmock.png'); 
+  background-position-y: -0.8vw;
+  background-color: D7DBEB;
+}
+
+.case-text{
+  align-self: stretch; 
+  padding-left: 1.2vw; 
+  padding-right: 1vw; 
+  padding-top: 0vw; 
+  padding-bottom: 0.5vw; 
+  background: white; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  display: inline-flex;
+}
+
+.case-text h3{
+  font-size: 1.5vw;
+  margin-bottom: -0.5vw;
+}
+
+.case-text h2{
+  font-size: 0.8vw;
+  font-weight: 400;
+  color: #606060;
+  margin-bottom: 0vw;
+  text-align: left;
+}
+
+.case-text p{
+  font-size: 1vw;
+  text-align: left;
+  color:black;
 }
