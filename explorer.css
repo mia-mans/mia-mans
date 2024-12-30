@@ -342,6 +342,9 @@ body{
     display: flex;
   }
   
+  #tab{
+    margin-left: 1.5vw;
+  }
   
   #overview h2{
     font-size: 1.7vw;
@@ -357,7 +360,7 @@ body{
     align-items: flex-start; 
     display: inline-flex;
     padding-top: 1vw; 
-    margin-top: 2vw;
+    /* margin-top: 2vw; */
     padding-left: 1.5vw; 
     padding-right: 1.5vw; 
     background: #F3F0EE; 
