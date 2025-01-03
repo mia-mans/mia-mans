@@ -1,0 +1,315 @@
+body{
+    background-color: FFFFFF;
+    margin:0;
+    font-weight: 400;
+    color: 15161A;
+    font-family: Helvetica Neue, sans-serif;
+}
+  
+  h1{
+  font-weight: 400;
+  font-size: 2vw;
+  color: 15161A;
+  font-family: 'Hedvig Letters Serif', Times, serif;
+  }
+  
+  h2{
+  font-size: 1.8vw;
+  font-weight: 500;
+  color: 15161A;
+  font-family: Helvetica Neue, sans-serif;
+  }
+  
+  h3{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 0;
+    /* line-height: 200%; */
+    padding-top: 1vw;
+    padding-bottom: 0.5vw;
+    color: 15161A;
+    font-family: Helvetica Neue, sans-serif;
+  }
+  
+  p{
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: 15161A;
+    line-height: 145%;
+    font-family: Helvetica Neue, sans-serif;
+    margin:0;
+    margin-top: 0.8vw;
+  }
+  
+  a{
+    font-style: italic;
+    text-decoration: none;
+  }
+  
+  html {
+  scroll-behavior: smooth;
+  }
+  
+  #linebreak{
+    width:60vw;
+    height: 0px; 
+    border: 0.1vw #D6CEC6 solid;
+    border-radius: 0.15vw; 
+    position:relative;
+    top: -0.15vw;
+    /* margin-left: 20vw; */
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+  
+  #bold{
+    font-weight: 800;
+  }
+  
+  .pic-shadow{
+    box-shadow: -0.1vw 0.1vw 1vw rgba(83, 51, 19, 0.40); 
+    border-radius: 0.7vw;
+    overflow:hidden;
+  }
+  
+  
+  /* ------------------------------ */
+  /* ------------ MENU ------------ */
+  /* ------------------------------ */
+  .menu {
+    width: 100vw; 
+    height:2vw; 
+    min-height: 20px;
+    padding-top: 2vw; 
+    padding-bottom: 1vw; 
+    padding-left: 15vw; 
+    padding-right: 15vw; 
+    background: rgb(255, 255, 255); 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  .menu h2{
+    font-size: 1.5vw;
+  }
+  
+  .menu-left{
+    width: 10vw; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex;
+    position:fixed;
+    left: 3vw;
+  }
+  
+  .menu-right{
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 3vw; 
+    display: flex;
+    position:fixed;
+    right: 0vw;
+    margin-right: 3vw;
+  }
+  
+  .menu a{
+    font-style: normal;
+  }
+  
+  .menu a:hover{
+    font-style: italic;
+  }
+  
+  
+  #home {
+    width: 5vw; 
+    height: 4vw; 
+    bottom: 0;
+    overflow: hidden;
+    position:relative;
+    display:flex;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: flex-end;
+    text-align:center;
+  }
+  
+  #select {
+    width: 10vw; 
+    height: 0px; 
+    border: 0.15vw #15161A solid;
+    position:absolute;
+    bottom: 0;
+  }
+  
+.right-item {
+    width: 10vw; 
+    height: 4vw; 
+    overflow: hidden;
+    position:relative;
+    bottom: 0;
+    display:flex;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: flex-end;
+    text-align:center;
+}
+
+/* ------------------------------ */
+/* ------------ COVER ----------- */
+/* ------------------------------ */
+.container{
+    width: 100vw; 
+    /* height:38vw; */
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex;
+  }
+  
+  #cover{
+    /* background-color: #F3F0EE; */
+    height:35vw;
+  }
+  
+  #break{
+    height: 8vw;
+  }
+  
+  #dsgn-cover{
+    align-self: center; 
+    width:50vw; 
+    padding-top: 2vw;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 0vw; 
+    display: flex;
+    
+  }
+  
+  #dsgn-cover h1{
+    padding-top: 2vw;
+    padding-bottom: 1vw;;
+    font-size: 3vw;
+  }
+  
+  #dsgn-cover-text{
+    width:50vw;
+    align-self: center; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 0vw; 
+    display: inline-flex;
+  }
+
+  
+  .cs-cover-item p{
+    color: #404451; 
+    font-family: Helvetica Neue; 
+    font-weight: 400; 
+    line-height: 200%; 
+    word-wrap: break-word;
+    margin-top: 0.2vw;
+    margin-bottom: 0;
+    max-width: 100%;
+  }
+  
+  #phone-text{
+    display:none;
+  }
+  
+  #phone-contact{
+    display:none;
+  }
+
+/* ------------------------------ */
+/* ----------- SUMMIT ----------- */
+/* ------------------------------ */
+  
+#linebreak{
+width:60vw;
+height: 0px; 
+border: 0.1vw #D6CEC6 solid;
+border-radius: 0.15vw; 
+position:relative;
+top: -0.15vw;
+margin-left: 20vw;
+margin-top: 5vw;
+margin-bottom: 5vw;
+}
+
+.section{
+    margin-top: -2vw;
+    width: 50vw; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 3vw; 
+    display: inline-flex;
+  }
+
+#imgs{
+    width: 50vw; 
+    position: relative;
+}
+
+#summit{
+    height: 52vw;
+
+}
+
+#summit1{
+    width: 32vw; 
+    left: 0vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#summit1 img{
+    width:100%;
+}
+
+#summit2{
+    width: 16vw; 
+    left: 35vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#summit2 img{
+    width: 100%;
+}
+
+#summit3{
+    width: 21vw; 
+    left: 0vw; 
+    top: 27vw; 
+    position: absolute; 
+
+}
+
+#summit3 img{
+    width: 100%;
+}
+
+#summit4{
+    width: 28vw; 
+    left: 23.5vw; 
+    top: 27vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#summit4 img{
+    width: 100%;
+}
+
+/* ------------------------------ */
+/* ---------- AUDITIONS --------- */
+/* ------------------------------ */
