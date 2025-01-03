@@ -313,3 +313,51 @@ margin-bottom: 5vw;
 /* ------------------------------ */
 /* ---------- AUDITIONS --------- */
 /* ------------------------------ */
+
+#auditions{
+    height:50vw;
+    /* background-color: red; */
+}
+
+#auditions1{
+    width: 19.3vw; 
+    left: 0vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#auditions1 img{
+    width:100%;
+}
+
+#auditions2{
+    width: 28vw; 
+    left: 21.5vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#auditions2 img{
+    width: 100%;
+}
+
+#auditions3{
+    width: 17vw; 
+    left: 21.5vw; 
+    top: 20.5vw; 
+    position: absolute; 
+
+}
+#auditions3 img{
+    width: 100%;
+}
+
+#auditions4{
+    width: 9.7vw; 
+    left: 40vw; 
+    top: 20.5vw; 
+    position: absolute; 
+}
+#auditions4 img{
+    width: 100%;
+}
