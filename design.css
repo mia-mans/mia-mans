@@ -433,3 +433,69 @@ margin-bottom: 5vw;
     width:100%;
     height: 100%;
 }
+
+/* ------------------------------ */
+/* ----------- SOIREE ----------- */
+/* ------------------------------ */
+
+#soiree{
+    height:60vw;
+    /* background-color: red; */
+}
+
+#soiree1{
+    width: 26vw; 
+    left: 0vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#soiree1 img{
+    width: 100%;
+}
+
+#soiree2{
+    width: 26vw; 
+    left: 0vw; 
+    top: 12.5vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#soiree2 img{
+    width: 100%;
+}
+
+#soiree3{
+    width: 12vw; 
+    left: 28vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#soiree3 img{
+    width: 100%;
+}
+
+#soiree4{
+    width: 10.7vw; 
+    left: 42vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#soiree4 img{
+    width: 100%;
+}
+
+#soiree5{
+    width: 24.2vw; 
+    height:12.5vw;
+    left: 28vw; 
+    top: 20vw; 
+    position: absolute; 
+}
+#soiree5 iframe{
+    width:100%;
+    height: 100%;
+}
