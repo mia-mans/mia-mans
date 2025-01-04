@@ -287,15 +287,17 @@ margin-bottom: 5vw;
 }
 
 #summit3{
-    width: 21vw; 
+    width: 20vw; 
+    height:11.5vw;
     left: 0vw; 
     top: 27vw; 
     position: absolute; 
 
 }
 
-#summit3 img{
+#summit3 iframe{
     width: 100%;
+    height:100%;
 }
 
 #summit4{
@@ -320,7 +322,7 @@ margin-bottom: 5vw;
 }
 
 #auditions1{
-    width: 19.3vw; 
+    width: 21vw; 
     left: 0vw; 
     top: 0vw; 
     position: absolute; 
@@ -332,7 +334,7 @@ margin-bottom: 5vw;
 
 #auditions2{
     width: 28vw; 
-    left: 21.5vw; 
+    left: 23vw; 
     top: 0vw; 
     position: absolute; 
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
@@ -342,22 +344,92 @@ margin-bottom: 5vw;
 }
 
 #auditions3{
-    width: 17vw; 
-    left: 21.5vw; 
-    top: 20.5vw; 
+    width: 16vw; 
+    height: 9.5vw;
+    left: 23vw; 
+    top: 23vw; 
     position: absolute; 
 
 }
-#auditions3 img{
+
+#auditions3 iframe{
     width: 100%;
+    height:100%
 }
 
 #auditions4{
-    width: 9.7vw; 
-    left: 40vw; 
-    top: 20.5vw; 
+    width: 10vw; 
+    left: 41vw; 
+    top: 23vw; 
     position: absolute; 
 }
 #auditions4 img{
     width: 100%;
+}
+
+
+/* ------------------------------ */
+/* ------------ NEWBS ----------- */
+/* ------------------------------ */
+
+#newbs{
+    height:50vw;
+    /* background-color: red; */
+}
+
+#newbs1{
+    width: 15vw; 
+    left: 0vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#newbs1 img{
+    width: 100%;
+}
+
+#newbs2{
+    width: 15vw; 
+    left: 17vw; 
+    top: 0vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#newbs2 img{
+    width: 100%;
+}
+
+#newbs3{
+    width: 15vw; 
+    left: 0vw; 
+    top: 17vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#newbs3 img{
+    width: 100%;
+}
+
+#newbs4{
+    width: 15vw; 
+    left: 17vw; 
+    top: 17vw; 
+    position: absolute; 
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#newbs4 img{
+    width: 100%;
+}
+
+#newbs5{
+    width: 18vw; 
+    height:32vw;
+    left: 34vw; 
+    top: 0vw; 
+    position: absolute; 
+}
+#newbs5 iframe{
+    width:100%;
+    height: 100%;
 }
